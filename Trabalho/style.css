@@ -1,0 +1,97 @@
+
+
+/* Colocamos a função "grid" para que o texto e as imagens se apropriem a diferentes tamanhos de tela! */
+
+h1 {
+
+display: grid;
+font-family: fantasy;
+text-align: center;
+font-size: 60px;
+grid-auto-flow: row;
+
+}
+
+/* Função do Dark mode. */
+
+.dark-mode {
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
+}
+
+.posi {
+
+position: relative;
+left: 50px;
+bottom:300px;
+grid-auto-flow: column;
+
+}
+
+.tia {
+
+position: relative;
+left: 210px;
+grid-auto-flow: column;
+
+}
+
+p {
+
+font-size: 15px;
+grid-auto-flow: row;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
+
+.curto {
+
+position: relative;
+left: 300px;
+grid-auto-flow: column;
+
+}
+
+h2 {
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 35px;
+color: rgb(223, 235, 0);
+grid-auto-flow: row;
+
+}
+
+.dick {
+
+position: relative;
+left: 300px;
+grid-auto-flow: column;
+
+}
+
+.pato {
+
+position: relative;
+left: 210px;
+grid-auto-flow: column;
+
+}
+
+.lindo {
+
+position: relative;
+left: 300px;
+grid-auto-flow: column;
+
+}
+
+.meta {
+
+position: relative;
+left: 300px;
+grid-auto-flow: column;
+
+}
+
